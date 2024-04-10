@@ -280,14 +280,14 @@ body.dark-theme{
 .home__social-icon:hover{
    color: var(--first-color-alt);
 }
+.home__img{
+   background: transparent;
+}
 .home__blob{
    width: 200px;
-   fill: var(--first-color);
+   
 }
 
-.home__blob-img{
-   width: 215px;
-}
 .home__data{
    grid-column: 1/3;
 }
@@ -480,13 +480,13 @@ body.dark-theme{
    width: 25%;
 }
 .skills__sql{
-   width: 80%;
+   width: 25%;
 }
 .skills__python{
-   width: 70%;
+   width: 15%;
 }
 .skills__nodejs{
-   width: 40%;
+   width: 20%;
 }
 .skills__mongodbs{
    width: 25%;
