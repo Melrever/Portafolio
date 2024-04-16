@@ -626,6 +626,7 @@ body.dark-theme{
    justify-content: center;
    padding: 0 1rem;
    z-index: var(--z-modal);
+
    opacity:0;
    visibility:hidden;
    transition: .3s;
