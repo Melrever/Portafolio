@@ -411,6 +411,7 @@ body.dark-theme{
 /* =============== SKILL =============== */
 .skills__container{
    row-gap: 0;
+   justify-content:center;
 }
 .skills__header{
    display:flex;
@@ -895,6 +896,7 @@ body.dark-theme{
    .contact__container,
    .footer__container{
       grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
    }
    .qualification__sections{
       display:grid;
@@ -989,6 +991,9 @@ display:none;
    }
    .about__buttons{
       justify-content: initial;
+   }
+   .skills__container{
+      justify-content: center;
    }
    .qualification__tabs{
       justify-content: center;
