@@ -682,6 +682,9 @@ body.dark-theme{
    width: 265px;
    border-radius: .5rem;
    justify-self: center;
+   -webkit-box-shadow: 0px 0px 15px -2px rgba(214,92,214,0.81);
+   -moz-box-shadow: 0px 0px 15px -2px rgba(214,92,214,0.81);
+   box-shadow: 0px 0px 15px -2px rgba(214,92,214,0.81);
 }
 
 .portafolio__data{
@@ -711,11 +714,13 @@ body.dark-theme{
 
 .project{
    text-align: center;
-  
+ 
 }
+
 .project__bg{
    background-color: var(--first-color-second);
-   padding: 10rem;
+   
+   
 }
 .project__title{
    font-size: var(--h3-font-size);
@@ -728,6 +733,9 @@ body.dark-theme{
 .project__title,
 .project__description{
    color: #FFF;
+}
+.project__data{ 
+   padding-bottom:25px;
 }
 
 /*==================== CONTACTO ====================*/
@@ -1034,7 +1042,7 @@ display:none;
    .project__container{
       background-color: var(--first-color-second);
       border-radius:1rem;
-      padding:3rem 2.5rem 0;
+      padding:3rem 2.5rem 2.5rem;
       grid-template-columns: 1fr max-content;
       column-gap: 3rem;
 
