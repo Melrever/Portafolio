@@ -450,64 +450,10 @@ body.dark-theme{
 .skills__name{
    font-size: var(--normal-font-size);
    font-weight: var(--font-medium);
+   display: flex;
+   margin-bottom: var(--mb-0-5);
 
 }
-.skills__bar,
-.skills__percentage{
-   height: 5px;
-   border-radius: .25rem;
-}
-
-.skills__bar{
-   background-color: var(--first-color-lighter);
-}
-.skills__percentage{
-   display: block;
-   background: var(--first-color);
-}
-.skills__html{
-   width: 85%;
-}
-
-.skills__css{
-   width: 80%;
-}
-.skills__bootstrap{
-   width: 85%;
-}
-
-.skills__js{
-   width: 60%;
-}
-
-.skills__react{
-   width: 25%;
-}
-.skills__sql{
-   width: 60%;
-}
-.skills__python{
-   width: 75%;
-}
-.skills__nodejs{
-   width: 45%;
-}
-.skills__mongodbs{
-   width: 35%;
-}
-.skills__aspNet{
-   width: 45%;
-}
-.skills__figma{
-   width: 95%;
-}
-.skills__photoshop{
-   width: 70%;
-}
-.skills__canva{
-   width: 99%;
-}
-
 .skills__close .skills__list{
    height: 0;
    overflow:hidden;
@@ -726,11 +672,7 @@ body.dark-theme{
  
 }
 
-.project__bg{
-   background-color: var(--first-color-second);
-   
-   
-}
+
 .project__title{
    font-size: var(--h3-font-size);
    margin-bottom: var(--mb-0-75);
@@ -739,13 +681,11 @@ body.dark-theme{
    margin-bottom: var(--mb-1-5);
 }
 
-.project__title,
-.project__description{
-   color: #FFF;
-}
 .project__data{ 
    padding-bottom:25px;
 }
+
+
 
 /*==================== CONTACTO ====================*/
 .contact__container{
@@ -1049,7 +989,7 @@ display:none;
       background: none;
    }
    .project__container{
-      background-color: var(--first-color-second);
+   
       border-radius:1rem;
       padding:3rem 2.5rem 2.5rem;
       grid-template-columns: 1fr max-content;
